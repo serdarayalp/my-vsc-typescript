@@ -17,6 +17,9 @@ class Person {
   public print() {
     // Code
   }
+  public getName() {
+    return this.name;
+  }
 }
 
 class Student extends Person {
@@ -28,5 +31,7 @@ class Student extends Person {
   }
 }
 
-let person1 = new Person("Klaus");
-let person2 = new Person("Karl");
+let person1: Person = new Person("Klaus");
+let person2: Person = new Person("Karl");
+
+console.log(person1.getName())

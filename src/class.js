@@ -23,6 +23,9 @@ var Person = /** @class */ (function () {
     Person.prototype.print = function () {
         // Code
     };
+    Person.prototype.getName = function () {
+        return this.name;
+    };
     Person.status = true;
     return Person;
 }());
@@ -39,4 +42,5 @@ var Student = /** @class */ (function (_super) {
 }(Person));
 var person1 = new Person("Klaus");
 var person2 = new Person("Karl");
+console.log(person1.getName());
 //# sourceMappingURL=class.js.map
