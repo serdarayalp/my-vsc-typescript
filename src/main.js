@@ -1,14 +1,6 @@
-function factorial(n) {
-    if (n <= 0) {
-        return 1;
-    }
-    else {
-        return n * factorial(n - 1);
-    }
+function disp(x, y) {
+    console.log(x);
+    console.log(y);
 }
-console.log(factorial(6));
-// ------------------------------------------------
-// Anonymous Recursive Function
-(function () {
-    console.log("Hello World");
-})(); // the function invokes itself using a pair of parentheses ()
+disp("abc");
+disp(1, "xyz");
