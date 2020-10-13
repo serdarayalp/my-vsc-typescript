@@ -1,6 +1,2 @@
-function disp(x, y) {
-    console.log(x);
-    console.log(y);
-}
-disp("abc");
-disp(1, "xyz");
+var num = new Number(177.1234);
+console.log(num.toLocaleString());
